@@ -1,0 +1,42 @@
+html.lenis {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  [text-split] {opacity: 0;}
+  html.w-editor [text-split] {opacity: 1;}
+  
+  .title_anim {
+      word-spacing: -.25em;
+  }
+  
+  .word {
+      overflow: hidden;
+    padding-bottom: 0.1em;
+    margin-bottom: -0.1em;
+    transform-origin: bottom;
+    padding-right: 0.1em;
+    margin-right: 0.12em;
+  }
+
+  .item {display: inline-block;}
+  .list {display:block !important;}
+  .slick-prev:hover,
+  .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus
+  {
+      outline: none;
+  }
+  .slick-slide, .slick-slide *{ outline: none !important; }
+  .intro_span_element { position: relative !important }
+  .about_span_wrap { display: flex !important }
