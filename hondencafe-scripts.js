@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 
 // --- LENIS SCROLL ---
-
+/*
 "use strict"; // fix lenis in safari
 
 if (Webflow.env("editor") === undefined) {
@@ -79,6 +79,7 @@ if (Webflow.env("editor") === undefined) {
         }
     });
 }
+*/
 
 
 // --- ILLUSTRATION SPAN IN TITLES ---
